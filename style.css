@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#0c111b;
+    
+}
+
+
+.top .header{
+position: fixed;
+background-color:#121926;
+/* background-color: #1f80e0; */
+width: 100%;
+height: 11.7%;
+z-index: 100000;
+top: 0%;
+display: flex;
+
+}
+
+.top .header img{
+position: relative;
+width: 12%;
+height: 99%;
+margin-left: 5%;
+margin-top: 2px;
+
+}
+
+
+.top .header .subscribe input{
+
+    position: absolute;
+    z-index: 1000;
+    margin-top:1%;
+    margin-left: 20%;
+    height: 50%;
+    width: 20%;
+    font-size: 4rem;
+    background-color:#121926;
+    border-radius: 2px;
+    border : 1px solid #121825;
+    color: aliceblue;
+    /* outline: none; */
+    /* outline-style: none; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+} 
+
+.top .header .subscribe a{
+    position: absolute;
+    z-index: 10000;
+    margin-top:2%;
+    right: 5%;
+    /* width: 12%;
+    height: 40%; */
+    font-size: 5rem;
+    /* text-align: center; */
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 14%;
+    height: 25%;
+    background-color: #1f80e0 ;
+    
+}
+
+.top .header .subscribe h3{
+    background-color:#1f80e0 ;
+    width: 110%;
+    border-radius: 14%;
+    font-size: 4rem;
+    
+
+}
+
+.extra{
+    display: grid;
+     gap: 1rem;
+     grid-auto-flow: column;
+     height: 50%;
+     margin-top:2%;
+     background-color: transparent;
+     text-align: center;
+}
+
+.extra h1{
+    font-size: 5rem;
+     color: white;
+     background-color: transparent;
+     font-weight: 10;
+     padding-left: 15%;
+     margin-left: 57%;
+    
+
+}
+
+.kids{
+    background-color: transparent;
+    margin-top: 1%;
+    margin-left: 6%;
+    height: 7vh;
+}
+.kids img{
+    height: 15vh;
+    min-width: 80%;
+
+}
+.home-image{
+  
+    /* overflow:hidden; */
+    background-image: url(assets/BlackWidow.jpg);
+     background-position:  -1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 60%;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+     
+    left: 4%;
+    filter: brightness();
+    padding-top: 350px;
+    padding-left: 2%;
+}
+
+
+.home-image .home-image-text{
+    position: absolute;
+    color: black;
+   width: 30%;
+   height: 50%;
+   background-color: transparent;
+    margin-top: 10% ;
+    margin-left: 5%;
+}
+
+.home-image .home-image-text ,p{
+     background-color: transparent;
+    font-size: 6rem;
+    font-weight: 1000;
+    margin-top:5%;
+    /* height: 50%; */
+}
+
+.home-image .home-image-text a{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+  margin-top: 112%;
+
+}
+.home-image .home-image-text h1{
+    background-color: transparent;
+    font-size: 6rem;
+    margin-bottom: -16.5%;
+    width: 10%;
+}
+
+.home-image .home-image-text img{
+    height: 10%;
+    background-color: transparent;
+    margin-top: 10%;
+    margin-left: 16%;
+}
+.trtext{
+
+position:relative;
+font-size: 6rem;
+margin-left: -3%;
+top: 120%;
+width: 40%;
+background: transparent;
+}
+
+.tr{
+    position: relative;
+    top: 125%;
+    height: 50%;
+    width: 180%;
+    margin-left: -5%;
+    display: flex;
+    scrollbar-width: 2px;  
+    overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling:touch;
+  
+    
+}
+
+
+.tr img{
+    margin:7px;
+    border-radius: 30px;
+    margin-left: 1%;
+  
+}
+html{
+    overflow: scroll;
+    overflow-y: auto;
+    /* -webkit-overflow-scrolling:touch;s */
+    overflow-x: hidden;
+}
+
+
+.no{
+    position: relative;
+    top: 120%;
+    height: 57%;
+    width: 200%;
+    margin-left: -5%;
+    display: flex;
+    scrollbar-width: 5%; 
+    overflow-x: hidden;
+	padding-bottom: -16%;
+    /* overflow-y: hidden; */
+    
+    
+
+}
+
+.text1{
+    position: relative;
+    top: 123%;
+    z-index: 1000;
+    margin-left:-3% ;
+    width: 40%;
+}
+.text1 h3{
+    top: 190%;
+    display: flex;
+    position: relative;
+    font-size: 6rem;
+margin-left: 1%;
+}
+
+.no img{
+    position: relative;
+    top: 12%;
+     margin:15px;
+     height: 28vh;
+     width: 20vh;
+     padding-left: 1px;
+     border-radius: 6%;
+   
+}
+
+
+.tr img:hover{
+    transform: scale(1.3);
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.3s;
+    filter: brightness(70%);
+}
+
+.no img:hover{
+    transform: scale(1.3);
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.3s;
+    filter: brightness(70%);
+    
+}
+
+.no::-webkit-scrollbar {
+    background-color: darkgrey;
+    width: 3px;;
+}
